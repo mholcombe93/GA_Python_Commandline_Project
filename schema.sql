@@ -15,3 +15,5 @@ CREATE TABLE contact_location (
   state_abreviation VARCHAR(2),
   contact_name_id INTEGER
 );
+
+-- SELECT * FROM contact_location JOIN contact_name ON contact_name.id = contact_name_id WHERE contact_name_id = 1;
